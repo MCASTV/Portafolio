@@ -142,4 +142,10 @@
     font-size: 1rem;
     color: var(--text-secondary);
   }
+  .cv-section {
+    text-align: center;
+  }
   
+  .btn-download {
+    margin-top: 1rem;
+  }

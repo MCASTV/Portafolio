@@ -188,9 +188,15 @@ const Home = () => {
         <p>GitHub: <a href={contactInfo.github} target="_blank" rel="noopener noreferrer">{contactInfo.github}</a></p>
         <p>Ubicacion {contactInfo.ciudad}</p>
       </div>
-
-
-      
+      <div className="block cv-section">
+        <h2>Mi Curriculum Vitae </h2>
+        <p>Te comparto mi cv en español</p>
+        <a href="/public\CV-IngMauricioCast.pdf" className="btn-download" download>CV en Español</a>
+        <br/>
+        <br/>
+        <p>Te comparto mi cv en inglés</p>
+        <a href="/public\CV-EngMauricioCast.pdf" className="btn-download" download>CV en Ingles</a>
+      </div>
     </div>
     
   );
