@@ -115,6 +115,15 @@ const Home = () => {
        
         <h2>Mauricio Alejandro <br/> Castañeda Velarde<br/>
             <br/>Ingeniero en Software</h2></div>
+           
+           
+            <div className="block">
+        <h2>Sobre mi</h2>
+        <p>Soy egresado de la carrera de ingenieria en Software, de la universidad enrique diaz, duramte mi tiempo estudiantial aprendi 
+            a programar en diferentes lenguajes de programacion, como Java, JavaScript, Html, C, Python pero en una parte de la carrera me gusto la programacion en diseño web , me especialice en los Framework de React, Nodejs los cuales son framewords de JavaScript
+            para el diseño web y con ellos aprendi herramientas como jsonWeb Token, Express, Ajax para hacer buenos resultados entra la parte conexion entre el Frontend y Backend y ademas he aprendido a trabajar en el soporte tecnico de equipos de Computacionales, Impresoras. proyectores, equipo de audio. tarjetas de video y servidores.
+        </p>
+            </div>
             <div className="block exerience-section">
         <h2>Experiencia Laboral</h2>
         <ul className="timeline">
@@ -181,7 +190,7 @@ const Home = () => {
       </div>
 
 
-      <FooterNavbar/>
+      
     </div>
     
   );
