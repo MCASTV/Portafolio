@@ -1,0 +1,84 @@
+/* src/styles/global.css */
+
+/* Colores de fondo y texto en modo oscuro */
+:root {
+  --background-dark: #121212; /* Negro */
+  --card-background: #1e1e1e; /* Gris oscuro */
+  --card-hover-background: #2c2c2c; /* Gris más oscuro */
+  --text-light: #e0e0e0; /* Gris claro para el texto */
+  --text-secondary: #b0b0b0; /* Gris medio para texto secundario */
+  --border-color: #333333; /* Gris oscuro para bordes */
+  --border-hover-color: #444444; /* Gris más oscuro para bordes al pasar el ratón */
+}
+
+/* Estilos globales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-dark);
+  color: var(--text-light);
+}
+
+/* Estilo para contenedores generales */
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo para todos los encabezados h1-h6 */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  color: var(--text-light);
+}
+
+/* Estilo para los párrafos */
+p {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+/* Estilo para botones */
+button {
+  background-color: var(--card-background);
+  color: var(--text-light);
+  border: 1px solid var(--border-color);
+  border-radius: 0.375rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--card-hover-background);
+  border-color: var(--border-hover-color);
+}
+
+/* Estilo para enlaces */
+a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para tarjetas */
+.card {
+  background-color: var(--card-background);
+  color: var(--text-light);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  border: 1px solid var(--border-color);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: var(--card-hover-background);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  border-color: var(--border-hover-color);
+}

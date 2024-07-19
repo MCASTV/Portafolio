@@ -1,0 +1,13 @@
+.footer-nav {
+    width: 100%; /* Asegura que el navbar ocupe todo el ancho disponible */
+    bottom: 0; /* Fija el navbar en la parte inferior de la página */
+    left: 0; /* Alinea el navbar al borde izquierdo de la página */
+    position: fixed; /* Fija el navbar en su posición */
+    z-index: 999; /* Asegura que el navbar esté sobre otros contenidos */
+  }
+  
+  .navbar-nav {
+    width: 100%; /* Asegura que los elementos de navegación ocupen todo el ancho disponible */
+    justify-content: center; /* Centra los enlaces de navegación */
+  }
+  
