@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import './Home.css';
+import FooterNavbar from './FooterNav';
 
 
 
@@ -178,6 +179,9 @@ const Home = () => {
         <p>GitHub: <a href={contactInfo.github} target="_blank" rel="noopener noreferrer">{contactInfo.github}</a></p>
         <p>Ubicacion {contactInfo.ciudad}</p>
       </div>
+
+
+      <FooterNavbar/>
     </div>
     
   );
