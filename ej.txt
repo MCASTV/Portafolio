@@ -3107,3 +3107,15 @@ const Home = () => {
       </div>
     </div> { title: 'JWT Token', description: 'JSON Web Token para autenticación segura.' },
     { title: 'AJAX', description: 'Técnica para hacer solicitudes HTTP asincrónicas.' },
+
+
+
+
+
+    {
+        
+        title: 'Grupo Coppel',
+      role: 'Ingeniero Tecnologico',
+      duration: 'Junio 2024 - Actualidad',
+      description: 'Soporte Técnico a equipo técnico de Computacional.'
+    },

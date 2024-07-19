@@ -31,14 +31,9 @@ const technologies = [
   };
   
   const experiences = [
+    
     {
-        Tipo:'Experencia como Ingeniero',
-        title: 'Grupo Coppel',
-      role: 'Ingeniero Tecnologico',
-      duration: 'Junio 2024 - Actualidad',
-      description: 'Soporte Técnico a equipo técnico de Computacional.'
-    },
-    {
+        Tipo:'Experencia como Ingeniero',  
     title: 'Dinamica Computacional (Punto Zero)',
       role: 'Ingeniero en Soporte Técnico',
       duration: 'Sep 2023 - Dic 2023',
