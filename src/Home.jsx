@@ -62,7 +62,7 @@ const technologies = [
       Tipo:'Experiencia Laboral',
         title: 'Volunt Industrial',
       role: 'Auxiliar Administrativo',
-      duration: 'Sep 2023 - Dic 2023',
+      duration: 'Feb 2022 - Agosto 2023',
       description: 'Soporte en áreas administrativas dentro de la empresa.'
     },
     {
